@@ -4,11 +4,16 @@
 <html>
   <head>
     <title>Matt's blog</title>
+    <link rel="stylesheet" href="{{site.github.url}}/css/index.css">
   </head>
   
   <body>
-    <h1>Future home of Matt's blog</h1>
-    <ul>
+    <div>
+      <img class="header-image" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_%28NASA-med%29.jpg"
+           alt="NGC 4414 (NASA-med).jpg">
+      <h1 class="title">Matt's Blog</h1>
+    </div>
+    <ul class="post-list">
        {% for post in site.posts %}
          <li>
            <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a><br>

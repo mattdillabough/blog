@@ -1,0 +1,14 @@
+.header-image {
+  height: 100px;
+  float: left;
+  margin: 20px;
+  width: 100px;
+}
+
+.post-list {
+  clear: both;
+}
+
+.title {
+  line-height: 140px;
+}
